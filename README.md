@@ -2,7 +2,9 @@
 
 hamster kombat key generator bot telegram
 
- [Spyman Malayalie Bot](https://t.me/SpymanMalayalie_bot)
+ [Hamster_keyGen](https://t.me/SpymanMalayalie_bot)
+
+type /16keys
 
 Welcome to the Hamster Kombat Key Generator!
 
