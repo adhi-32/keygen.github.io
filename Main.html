@@ -18,144 +18,148 @@
         }
 
         body {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh;
-            padding: 20px;
-            box-sizing: border-box;
-        }
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #000000; /* Black background */
+}
 
-        .main-container {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            box-sizing: border-box;
-        }
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+}
 
-        .container {
-            background: linear-gradient(145deg, #000000, #000000);
-            border-radius: 16px;
-            box-shadow: 5px 5px 10px #1a1a23, -5px -5px 10px #30303b;
-            padding: 40px;
-            width: 100%;
-            max-width: 500px;
-            text-align: center;
-            box-sizing: border-box;
-        }
+.container {
+    background: linear-gradient(145deg, #000000, #333333); /* Black to dark gray gradient */
+    border-radius: 16px;
+    box-shadow: 5px 5px 10px #1a1a1a, -5px -5px 10px #333333; /* Darker shadow */
+    padding: 40px;
+    width: 100%;
+    max-width: 500px;
+    text-align: center;
+    box-sizing: border-box;
+}
 
-        h1 {
-            margin-bottom: 20px;
-            color: #ff0000;
-            font-size: 24px;
-        }
+h1 {
+    margin-bottom: 20px;
+    color: #ff0000; /* Red */
+    font-size: 24px;
+}
 
-        label {
-            display: block;
-            margin-bottom: 10px;
-            font-weight: bold;
-            color: #ff0000;
-            font-size: 14px;
-        }
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #ff0000; /* Red */
+    font-size: 14px;
+}
 
-        select, .button {
-            width: 100%;
-            padding: 12px;
-            margin-bottom: 20px;
-            border: none;
-            border-radius: 8px;
-            background-color: #ff000000;
-            color: #ff0000;
-            font-size: 16px;
-            transition: background-color 0.3s;
-        }
+select, .button {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 8px;
+    background-color: #000000; /* Black */
+    color: #ff0000; /* Red text */
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
 
-        select:focus, .button:focus {
-            outline: none;
-        }
+select:focus, .button:focus {
+    outline: none;
+}
 
-        .button {
-            cursor: pointer;
-            background-color: #000000;
-        }
+.button {
+    cursor: pointer;
+    background-color: #ff0000; /* Red */
+    color: #ffffff; /* White */
+}
 
-        .button:hover {
-            background-color: #005a56;
-        }
+.button:hover {
+    background-color: #cc0000; /* Darker red */
+}
 
-        .progress-container {
-            display: flex;
-            align-items: center;
-            margin-top: 20px;
-            width: 100%;
-        }
+.progress-container {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    width: 100%;
+}
 
-        .progress-bar {
-            width: 0%;
-            height: 20px;
-            background-color: #ff0000;
-            border-radius: 4px;
-            transition: width 0.3s;
-        }
+.progress-bar {
+    width: 0%;
+    height: 20px;
+    background-color: #ff0000; /* Red */
+    border-radius: 4px;
+    transition: width 0.3s;
+}
 
-        .progress-text {
-            margin-left: 10px;
-            font-weight: bold;
-            color: #ffffff;
-        }
+.progress-text {
+    margin-left: 10px;
+    font-weight: bold;
+    color: #ffffff; /* White */
+}
 
-        .key-container {
-            margin-top: 20px;
-            max-height: 400px;
-            overflow-y: auto;
-        }
+.key-container {
+    margin-top: 20px;
+    max-height: 400px;
+    overflow-y: auto;
+}
 
-        .key-container::-webkit-scrollbar {
-            display: none;
-        }
+.key-container::-webkit-scrollbar {
+    display: none;
+}
 
-        h2{
-            color:white;
-        }
+h2 {
+    color: #ffffff; /* White */
+}
 
-        .key-item {
-            display: flex;
-            align-items: center;
-            margin-bottom: 10px;
-            background-color: #37374a;
-            padding: 10px;
-            border-radius: 8px;
-        }
+.key-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    background-color: #000000; /* Black */
+    padding: 10px;
+    border-radius: 8px;
+}
 
-        .key-item input {
-            flex-grow: 1;
-            margin: 8px;
-            outline: none;
-            background: transparent;
-            color: #ffffff;
-            font-size: 16px;
-            overflow: hidden;
-            text-overflow: ellipsis;
-        }
+.key-item input {
+    flex-grow: 1;
+    margin: 8px;
+    outline: none;
+    background: transparent;
+    color: #ffffff; /* White */
+    font-size: 16px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
 
-        .key-number, .copyKeyBtn {
-            background-color: #008075;
-            color: white;
-            border: none;
-            padding: 10px;
-            border-radius: 8px;
-            cursor: pointer;
-            font-size: 16px;
-            margin-left: 5px;
-            transition: background-color 0.3s;
-        }
+.key-number, .copyKeyBtn {
+    background-color: #ff0000; /* Red */
+    color: #ffffff; /* White */
+    border: none;
+    padding: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 5px;
+    transition: background-color 0.3s;
+}
 
-        .copyKeyBtn:hover {
-            background-color: #005e56;
-        }
-        .keyContainer{
-            color:white;
-        }
+.copyKeyBtn:hover {
+    background-color: #cc0000; /* Darker red */
+}
+
+.keyContainer {
+    color: #ffffff; /* White */
+}
+
 
         .hidden {
             display: none;
